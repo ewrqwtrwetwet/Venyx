@@ -418,7 +418,7 @@ function lib:CreateWindow(name, colorid, imageid)
 	Stripes.Position = UDim2.new(0, -15, 1, 0)
 	Stripes.Size = UDim2.new(1, 512, 1, -19)
 	Stripes.BottomImage = ""
-	Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+	Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 	Stripes.MidImage = ""
 	Stripes.ScrollBarThickness = 0
 	Stripes.ScrollingEnabled = false
@@ -543,7 +543,7 @@ function lib:CreateWindow(name, colorid, imageid)
 	Stripes_2.Position = UDim2.new(0, 0, 1, 0)
 	Stripes_2.Size = UDim2.new(1, 0, 1, -19)
 	Stripes_2.BottomImage = ""
-	Stripes_2.CanvasSize = UDim2.new(1, 0, 0, 357)
+	Stripes_2.CanvasSize = UDim2.new(1, 0, 0, 3000)
 	Stripes_2.MidImage = ""
 	Stripes_2.ScrollBarThickness = 6
 	Stripes_2.ScrollingEnabled = false
@@ -605,7 +605,7 @@ function lib:CreateWindow(name, colorid, imageid)
 	Layers.Size = UDim2.new(1, 0, 1, -19)
 	Layers.ZIndex = 4
 	Layers.BottomImage = "rbxassetid://2070896802"
-	Layers.CanvasSize = UDim2.new(1, 0, 0, 357)
+	Layers.CanvasSize = UDim2.new(1, 0, 0, 3000)
 	Layers.MidImage = "rbxassetid://2070896802"
 	Layers.ScrollBarThickness = 0
 	Layers.ScrollingEnabled = false
@@ -617,7 +617,7 @@ function lib:CreateWindow(name, colorid, imageid)
 	Frame_2.Parent = Layers
 	Frame_2.BackgroundTransparency = 1.000
 	Frame_2.LayoutOrder = 1
-	Frame_2.Size = UDim2.new(1, 0, 0, 357)
+	Frame_2.Size = UDim2.new(1, 0, 0, 3000)
 
 	UIListLayout_4.Parent = Frame_2
 	UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
@@ -662,7 +662,7 @@ function lib:CreateWindow(name, colorid, imageid)
 	SelectionBox.Size = UDim2.new(1, 28, 1, -19)
 	SelectionBox.ZIndex = 4
 	SelectionBox.BottomImage = "rbxassetid://2070896802"
-	SelectionBox.CanvasSize = UDim2.new(1, 0, 0, 357)
+	SelectionBox.CanvasSize = UDim2.new(1, 0, 0, 3000)
 	SelectionBox.MidImage = "rbxassetid://2070896802"
 	SelectionBox.ScrollBarThickness = 0
 	SelectionBox.ScrollingEnabled = false
@@ -1342,7 +1342,7 @@ function lib:CreateWindow(name, colorid, imageid)
 			Popup.Name = "Popup"
 			spawn(function()
 				Popup.Parent = MoonLIB.Frame
-				end)
+			end)
 			Popup.BackgroundColor3 = Color3.fromRGB(18, 22, 28)
 			Popup.BorderColor3 = Color3.fromHex(colorid)
 			Popup.BorderSizePixel = 0
@@ -1369,7 +1369,7 @@ function lib:CreateWindow(name, colorid, imageid)
 			Stripes.Position = UDim2.new(0, -15, 1, 0)
 			Stripes.Size = UDim2.new(1, 512, 1, -19)
 			Stripes.BottomImage = ""
-			Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+			Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 			Stripes.MidImage = ""
 			Stripes.ScrollBarThickness = 0
 			Stripes.ScrollingEnabled = false
@@ -1723,7 +1723,7 @@ function lib:CreateWindow(name, colorid, imageid)
 			Stripes.Position = UDim2.new(0, -15, 1, 0)
 			Stripes.Size = UDim2.new(1, 512, 1, -19)
 			Stripes.BottomImage = ""
-			Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+			Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 			Stripes.MidImage = ""
 			Stripes.ScrollBarThickness = 0
 			Stripes.ScrollingEnabled = false
@@ -2007,7 +2007,7 @@ function lib:CreateWindow(name, colorid, imageid)
 				Stripes.Position = UDim2.new(0, -15, 1, 0)
 				Stripes.Size = UDim2.new(1, 512, 1, -19)
 				Stripes.BottomImage = ""
-				Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+				Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 				Stripes.MidImage = ""
 				Stripes.ScrollBarThickness = 0
 				Stripes.ScrollingEnabled = false
@@ -2278,7 +2278,7 @@ function lib:CreateWindow(name, colorid, imageid)
 				Stripes.Position = UDim2.new(0, -15, 1, 0)
 				Stripes.Size = UDim2.new(1, 512, 1, -19)
 				Stripes.BottomImage = ""
-				Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+				Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 				Stripes.MidImage = ""
 				Stripes.ScrollBarThickness = 0
 				Stripes.ScrollingEnabled = false
@@ -2618,7 +2618,7 @@ function lib:CreateWindow(name, colorid, imageid)
 						Stripes.Position = UDim2.new(0, -15, 1, 0)
 						Stripes.Size = UDim2.new(1, 512, 1, -19)
 						Stripes.BottomImage = ""
-						Stripes.CanvasSize = UDim2.new(1, 0, 0, 357)
+						Stripes.CanvasSize = UDim2.new(1, 0, 0, 3000)
 						Stripes.MidImage = ""
 						Stripes.ScrollBarThickness = 0
 						Stripes.ScrollingEnabled = false
