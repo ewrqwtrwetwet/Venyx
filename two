@@ -409,7 +409,7 @@ do
 		end
 	end
 
-	function InternalUI:Dropdown(name, list, value, callback)
+	function InternalUI:addPage(name, list, value, callback)
 		value = value or list[1]
 		callback = callback or function() end
 
